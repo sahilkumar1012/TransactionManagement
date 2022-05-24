@@ -14,6 +14,6 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Solution entry = new Solution();
-        System.out.println(entry.main());
+        entry.main();
     }
 }

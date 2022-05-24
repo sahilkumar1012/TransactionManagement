@@ -17,5 +17,5 @@ public class Buyer {
     private String igst;
     private String cgst;
     private String sgst;
-    private Double total;
+    private String total;
 }
