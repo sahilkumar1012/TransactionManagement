@@ -49,7 +49,7 @@ public class BuyerSupplierService {
             if(maxScore == 0){
                 relation = Constants.ONLY_BUYER;
                 buyerXSupplierList.add(new BuyerXSupplier(buyer, null, relation));
-            }else if(maxScore == 4) {         // TODO mind max score here
+            }else if(maxScore == 8) {         // TODO mind max score here
                 relation = Constants.EXACT;
                 buyerXSupplierList.add(new BuyerXSupplier(buyer, candidateSupplier, relation));
             }else{
